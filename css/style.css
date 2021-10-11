@@ -35,5 +35,9 @@ h1{
     font-size: 12px;
 }
 .galleria{
-    margin-top: 10px;
+    display: inline;
+}
+.galleria p{
+    margin: 0;
+    font-size: 12px;
 }
