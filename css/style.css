@@ -1,3 +1,4 @@
+/* Font e margini container */
 html{
     font-family: 'Lora', serif;
 }
@@ -19,6 +20,9 @@ header{
     padding-bottom: 1%;
     margin-left: 1%;
 }
+
+/* titolo articolo */
+
 h1{
     font-size: 35px;
     font-weight: bolder;
@@ -34,6 +38,8 @@ h1{
 #data{
     font-size: 12px;
 }
+
+/* foto */
 .galleria{
     display: inline;
 }
@@ -41,6 +47,8 @@ h1{
     margin: 0;
     font-size: 12px;
 }
+
+/* Article body */
 .evidenziato{
     background-color: yellow;
 }
@@ -60,7 +68,22 @@ table{
 .blue-row{
     background-color: #B2E6F2;
 }
+
+
+/* Siti correllati */
 .correlati{
+    margin-bottom: 10px;
     font-weight: bold;
     color: #888888;
+}
+.img-correlati{
+    position: relative;
+    width: 100%;
+}
+#didascalia{
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    font-weight: bold;
+    color: white;
 }
