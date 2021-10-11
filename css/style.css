@@ -44,7 +44,12 @@ h1{
 .evidenziato{
     background-color: yellow;
 }
+ul{
+    padding-left: 18px;
+}
 table{
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-collapse: collapse;
 }
 .tablehead{
@@ -54,4 +59,8 @@ table{
 }
 .blue-row{
     background-color: #B2E6F2;
+}
+.correlati{
+    font-weight: bold;
+    color: #888888;
 }
