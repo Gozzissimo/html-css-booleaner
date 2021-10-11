@@ -59,11 +59,18 @@ table{
     margin-top: 20px;
     margin-bottom: 20px;
     border-collapse: collapse;
+    width: 100%;
 }
 .tablehead{
     text-align: left;
     background-color: #1AABE6;
     color: white;
+}
+td{
+    width: 33%;
+}
+th{
+    width: 33%;
 }
 .blue-row{
     background-color: #B2E6F2;
